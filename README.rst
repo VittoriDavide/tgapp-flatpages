@@ -70,7 +70,7 @@ rendering a page, pass this to the plug call to set them:
 Example of plugin using genshi as template engine::
 
     plug(base_config, 'flatpages', format='html',
-     templates=[("genshi:londontradeart.templates.flatpages.page", "default")],
+     templates=[("genshi:yourproject.templates.flatpages.page", "default")],
     global_models = True)
 
 Overriding crud templates
